@@ -2,6 +2,8 @@
 
 **This repository is specifically adapted to OCS**
 
+This repository follows the OCS branch of [chatGPTAutoAnswerByNode.js](https://github.com/reconvene/chatGPTAutoAnswerByNode.js/tree/OCS)
+
 A chatGPT API encapsulated by Node.js+Express
 
 **Thanks to this project for bringing the API**  [chatanywhere/GPT_API_free](https://github.com/chatanywhere/GPT_API_free) 
@@ -65,4 +67,3 @@ Access http://**yourServerIP**:3000/api/qa?question=**yourquestion** through the
 
 Enjoy your GPT-enabled OCS:)
 
-This repository follows the OCS branch of [chatGPTAutoAnswerByNode.js](https://github.com/reconvene/chatGPTAutoAnswerByNode.js/tree/OCS)
