@@ -1,6 +1,6 @@
 # chatGPTAutoAnswerForOCS
 
-**This branch is specifically adapted to OCS**
+**This repository is specifically adapted to OCS**
 
 A chatGPT API encapsulated by Node.js+Express
 
@@ -65,4 +65,4 @@ Access http://**yourServerIP**:3000/api/qa?question=**yourquestion** through the
 
 Enjoy your GPT-enabled OCS:)
 
-(chatGPTAutoAnswerForOCS)[https://github.com/reconvene/chatGPTAutoAnswerForOCS] repository synchronizes with this OCS branch
+This repository follows the OCS branch of [chatGPTAutoAnswerByNode.js](https://github.com/reconvene/chatGPTAutoAnswerByNode.js/tree/OCS)
