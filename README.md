@@ -6,7 +6,7 @@ This repository is the OCS branch of project [chatGPTAutoAnswerByNode.js](https:
 
 A ChatGPT API forwarder by Node.js+Express
 
-**Thanks to [this](https://github.com/chatanywhere/GPT_API_free) project for providing the free ChatGPT API**
+**Thanks to [this](https://github.com/chatanywhere/GPT_API_free) project for providing the free ChatGPT API!**
 
 This is a simple project to demonstrate how to encapsulate the ChatGPT API through Node.js+Express to achieve the desired goal.
 
