@@ -64,6 +64,6 @@ node app.js
 ]
 ```
 # Try it!
-Access http://**yourServerIP**:3000/api/qa?question=**yourquestion** through the **GET** method to get answers through JSON format
+Access http://**yourServerIP**:3000/api/qa?question=**yourquestion** through the **GET** method to get answers in JSON format
 
 Enjoy your GPT-enabled OCS :)
