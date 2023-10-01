@@ -8,7 +8,7 @@ A ChatGPT API forwarder by Node.js+Express
 
 **Thanks to [this](https://github.com/chatanywhere/GPT_API_free) project for providing the free ChatGPT API**
 
-This is a simple project. Its purpose is to encapsulate the ChatGPT API through Node.js+Express to achieve the desired effect.
+This is a simple project to demonstrate how to encapsulate the ChatGPT API through Node.js+Express to achieve the desired goal.
 
 HOW TO USE
 ---
@@ -64,6 +64,6 @@ node app.js
 ]
 ```
 # Try it!
-Access http://**yourServerIP**:3000/api/qa?question=**yourquestion** through the **GET** method to obtain JSON data
+Access http://**yourServerIP**:3000/api/qa?question=**yourquestion** through the **GET** method to get answers through JSON format
 
 Enjoy your GPT-enabled OCS :)
