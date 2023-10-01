@@ -34,7 +34,7 @@ const config={
 		'Authorization': 'Bearer !!!-----yourAPIKey-----!!!'
 	},
 	//设置超时时间
-	timeout: 5000
+	//timeout: 10000
 };
 ```
 
