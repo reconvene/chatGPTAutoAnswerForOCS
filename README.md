@@ -1,54 +1,55 @@
-# chatGPTAutoAnswerForOCS
+# ChatGPT-AutoAnswer-For-OCS
 
-**This repository is specifically adapted to OCS**
+**This repository is specifically adapted to OCS.**
 
-This repository follows the OCS branch of [chatGPTAutoAnswerByNode.js](https://github.com/reconvene/chatGPTAutoAnswerByNode.js/tree/OCS)
+This repository is the OCS branch of project [chatGPTAutoAnswerByNode.js](https://github.com/reconvene/chatGPTAutoAnswerByNode.js/tree/OCS)
 
-A chatGPT API encapsulated by Node.js+Express
+A ChatGPT API forwarder by Node.js+Express
 
-**Thanks to this project for bringing the API**  [chatanywhere/GPT_API_free](https://github.com/chatanywhere/GPT_API_free) 
+**Thanks to [this](https://github.com/chatanywhere/GPT_API_free) project for providing the free ChatGPT API**
 
-This is a simple project. Its purpose is to encapsulate the chatgpt API through Node.js+Express to achieve the desired effect.
+This is a simple project. Its purpose is to encapsulate the ChatGPT API through Node.js+Express to achieve the desired effect.
 
 HOW TO USE
 ---
 
-Configure the system environment of Node.js
-The version of Node.js is **18.18.0 LTS**
+Configure the system environment for Node.js
 
-1.  Git this project to the computer
+We chose **18.18.0 LTS**
+
+1.  Clone this project to your computer
 ```
-git clone https://github.com/reconvene/chatGPTAutoAnswerByNode.js.git
+git clone https://github.com/reconvene/chatGPTAutoAnswerForOCS
 ```
 
-2.  Don't forget this step
+2.  Modify the configuration
 
-    Replace **‘!!!-----yourAPIKey-----!!!’** with your **APIKey**
+    Replace **‘!!!-----yourAPIKey-----!!!’** with your **ChatGPT API Key**
    
     *Do not delete the preceding ‘Bearer’*
 ```
 const config={
-	// 设置请求的头部，包含内容类型和授权密钥
+	//config request header,including the content type and authorization key
 	headers: {
 		'Content-Type': 'application/json',
 		'Authorization': 'Bearer !!!-----yourAPIKey-----!!!'
 	},
-	//设置超时时间
+	//config timeout
 	timeout: 5000
 };
 ```
 
-3. Go to the directory and npm install
+3. Install dependencies
 ```
 npm install
 ```
 
-4. Start the app.js
+4. Run app.js
 ```
 node app.js
 ```
 
-5. Add some code to the OCS configuration interface
+5. Add some lines to the OCS configuration interface
    
    **Don’t forget to replace ‘yourServerIP‘**
 ```
@@ -62,8 +63,7 @@ node app.js
   }
 ]
 ```
-# Finished
+# Try it!
 Access http://**yourServerIP**:3000/api/qa?question=**yourquestion** through the **GET** method to obtain JSON data
 
-Enjoy your GPT-enabled OCS:)
-
+Enjoy your GPT-enabled OCS :)
